@@ -1,0 +1,4 @@
+for angka in range(1, 200): 
+    if angka % 4 == 0 and angka % 6 == 0: 
+       print(f"Bilangan pertama yang habis dibagi 4 dan 6 adalah {angka}") 
+       break 

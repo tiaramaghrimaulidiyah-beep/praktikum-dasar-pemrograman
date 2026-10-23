@@ -1,0 +1,14 @@
+# Deklarasi list angka
+angka = [10, 20, 30, 40, 50, 60]
+
+# 1. Tampilkan angka indeks 1 sampai sebelum indeks 4
+print("Indeks 1 sampai sebelum indeks 4:", angka[1:4])
+
+# 2. Tampilkan tiga elemen pertama
+print("Tiga elemen pertama:", angka[:3])
+
+# 3. Tampilkan elemen mulai indeks 3 sampai akhir
+print("Elemen mulai indeks 3 sampai akhir:", angka[3:])
+
+# 4. Tampilkan list terbalik
+print("List terbalik:", angka[::-1])
